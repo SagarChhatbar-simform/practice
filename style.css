@@ -29,7 +29,7 @@ background-color: #e94656;
 text-decoration: none;
 margin: 5px;
 padding: 12px;
-color: black;
+color: white;
 border-radius:13px;
 transition: all .8s ease;
 }
@@ -127,7 +127,7 @@ display: grid;
 
 .footer-btn{
 text-decoration: none;
-color: black;
+color: white;
 }
 
 
