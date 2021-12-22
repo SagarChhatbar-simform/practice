@@ -84,12 +84,18 @@ display:flex;
 .inner-cards img{
 height: 150px;
 border-radius: 45px;
+transition: border-radius 2s;
 }
 
 .in-cards{
 
 display: contents;
+
 }
+
+.inner-cards img:hover {
+    border-radius: 0px;
+  }
 .div-image{
 background-color:#e94656;
 }
@@ -128,3 +134,20 @@ color: black;
 
 
 
+.ani{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:150px; top:0px;}
+    50%  {right:250px; top:0px;}
+    100% {left:0px; top:0px;}
+  }
+
+  
